@@ -21,15 +21,16 @@ void sortArray(int arrayAlias[], size_t arraySize)
 
 		{
 
-			if (arrayAlias[index] > arrayAlias[index + 1])
+			if (arrayAlias[index] > arrayAlias[index + 1]) //hvis den vi har fat i er
+															//større end det næste index i array
 
 			{
 
-				swap = arrayAlias[index];
+				swap = arrayAlias[index];		//definere vores array som swap
 
-				arrayAlias[index] = arrayAlias[index + 1];
+				arrayAlias[index] = arrayAlias[index + 1];		//definere vores array som det næste
 
-				arrayAlias[index + 1] = swap;
+				arrayAlias[index + 1] = swap;					//definere det næste array som vores
 
 				end = 0;
 
